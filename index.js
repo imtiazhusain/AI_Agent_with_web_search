@@ -91,6 +91,8 @@ async function callAgent() {
     content: `You are a smart assistant who answers the asked questions.
         You have access to the following tools:
         1.searchWeb({query}) : {query:string} // Search the latest information and realtime data from the internet.
+
+        current Date and Time: ${new Date().toUTCString()}
         
         `
   },
